@@ -1,2 +1,20 @@
-# Fourier-Drawing-with-Epicycles
-ourier Drawing with Epicycles This project visualizes how complex shapes and drawings can be reconstructed using rotating vectors derived from the Discrete Fourier Transform (DFT). By decomposing hand-drawn paths into circular motions, it demonstrates the power of Fourier series in a visually intuitive way.
+# ✏️ Fourier Drawing Visualizer with Epicycles
+
+This project demonstrates how any hand-drawn shape can be reconstructed using **Fourier series** and animated with rotating vectors called **epicycles**. It combines real-time drawing, Discrete Fourier Transform (DFT), and visualization using `pygame`.
+
+---
+
+## 🧠 Concept
+
+The program lets you draw a shape using your mouse, performs a **DFT** on the coordinates, and then animates the reconstruction using **rotating circles (epicycles)**. This is a visual representation of the Fourier series in action — converting a spatial signal into a frequency domain and back.
+
+---
+
+## 🖥️ Features
+
+- Mouse-drawing interface
+- Computes Fourier coefficients of the drawn path
+- Animates rotating vectors to rebuild the drawing
+- Smooth trail effect for visualization
+
+---
